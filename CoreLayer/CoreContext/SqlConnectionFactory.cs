@@ -2,7 +2,7 @@
 using System.Data;
 using System.Data.SqlClient;
 
-namespace CoreLayer.CoreContext
+namespace Core.CoreContext
 {
     public class SqlConnectionFactory : ISqlConnectionFactory, IDisposable
     {
@@ -11,25 +11,25 @@ namespace CoreLayer.CoreContext
 
         public SqlConnectionFactory(string connectionString)
         {
-            this._connectionString = connectionString;
+            _connectionString = connectionString;
         }
 
         public IDbConnection GetOpenConnection()
         {
-            if (this._connection == null || this._connection.State != ConnectionState.Open)
+            if (_connection == null || _connection.State != ConnectionState.Open)
             {
-                this._connection = new SqlConnection(_connectionString);
-                this._connection.Open();
+                _connection = new SqlConnection(_connectionString);
+                _connection.Open();
             }
 
-            return this._connection;
+            return _connection;
         }
 
         public void Dispose()
         {
-            if (this._connection != null && this._connection.State == ConnectionState.Open)
+            if (_connection != null && _connection.State == ConnectionState.Open)
             {
-                this._connection.Dispose();
+                _connection.Dispose();
             }
         }
     }

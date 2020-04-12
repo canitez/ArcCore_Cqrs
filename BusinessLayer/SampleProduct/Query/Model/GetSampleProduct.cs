@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using MediatR;
 
-namespace BusinessLayer.SampleProduct.Query.Model
+namespace Application.SampleProduct.Query.Model
 {
     public class GetSampleProduct : IRequest<List<GetSampleProduct>>
     {
@@ -11,7 +11,7 @@ namespace BusinessLayer.SampleProduct.Query.Model
 
         public GetSampleProduct(Guid productId)
         {
-            this.SampleProductId = productId;
+            SampleProductId = productId;
         }
     }
 }

@@ -1,11 +1,11 @@
-﻿using CoreLayer.EntityFrameworkRepository;
-using DataAccessLayer.AppLayer.Command;
-using DataAccessLayer.DbEntity.Orm.EntityFramework;
-using EntityLayer.DbLayer.Command;
+﻿using Core.EntityFrameworkRepository;
+using DataAccess.AppLayer.Command;
+using DataAccess.DbEntity.Orm.EntityFramework.CommandContext;
+using Entity.DbLayer.Command;
 
-namespace DataAccessLayer.DbEntity.Command
+namespace DataAccess.DbEntity.Command
 {
-    public class SampleProductDal : EntityRepositoryBase<SampleProductCommandModel, EfContext>, ISampleProductDal
+    public class SampleProductDal : EntityRepositoryBase<SampleProductCommandModel, EfQueryContext>, ISampleProductDal
     {
     }
 }

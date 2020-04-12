@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace CoreLayer.CoreContext
+namespace Core.CoreContext
 {
     public abstract class BaseDbContext<T> : DbContext, IEfCoreDbContext where T : DbContext
     {

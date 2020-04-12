@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CoreLayer.CoreCommand
+namespace Core.CoreCommand
 {
     public class CommandBase : ICommand
     {
@@ -8,12 +8,12 @@ namespace CoreLayer.CoreCommand
 
         public CommandBase()
         {
-            this.Id = Guid.NewGuid();
+            Id = Guid.NewGuid();
         }
 
         protected CommandBase(Guid id)
         {
-            this.Id = id;
+            Id = id;
         }
     }
 
@@ -23,12 +23,12 @@ namespace CoreLayer.CoreCommand
 
         protected CommandBase()
         {
-            this.Id = Guid.NewGuid();
+            Id = Guid.NewGuid();
         }
 
         protected CommandBase(Guid id)
         {
-            this.Id = id;
+            Id = id;
         }
     }
 }

@@ -1,10 +1,10 @@
-﻿using CoreLayer.EntityFrameworkRepository;
-using EntityLayer.DbLayer.Command;
+﻿using Core.EntityFrameworkRepository;
+using Entity.DbLayer.Command;
 
-namespace BusinessLayer.SampleProduct.Command.Helper
+namespace Application.SampleProduct.Command.Helper
 {
-    public interface ISampleProductRepository : IEntitiyRepository<SampleProductCommandModel>
+    public interface ISampleProductRepository
     {
-       
+        void Add(SampleProductCommandModel sampleProductCommand);
     }
 }

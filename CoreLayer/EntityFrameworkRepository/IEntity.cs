@@ -1,4 +1,4 @@
-﻿namespace CoreLayer.EntityFrameworkRepository
+﻿namespace Core.EntityFrameworkRepository
 {
     public interface IEntity
     {

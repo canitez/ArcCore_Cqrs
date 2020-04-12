@@ -5,12 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="AppLayer\" />
+    <Compile Remove="AppLayer\**" />
+    <EmbeddedResource Remove="AppLayer\**" />
+    <None Remove="AppLayer\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="DbLayer\Query\" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CoreLayer\CoreLayer.csproj" />
+    <ProjectReference Include="..\CoreLayer\Core.csproj" />
   </ItemGroup>
 
 </Project>

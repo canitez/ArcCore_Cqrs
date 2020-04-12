@@ -1,6 +1,6 @@
 ﻿using System.Data;
 
-namespace CoreLayer.CoreContext
+namespace Core.CoreContext
 {
     public interface ISqlConnectionFactory
     {

@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using BusinessLayer.SampleProduct.Query.Model;
-using CoreLayer.CoreContext;
+using Application.SampleProduct.Query.Model;
+using Core.CoreContext;
 using Dapper;
 using MediatR;
 
-namespace BusinessLayer.SampleProduct.Query.Business
+namespace Application.SampleProduct.Query.Business
 {
     internal class GetCustomerOrdersQueryHandler : IRequestHandler<GetSampleProduct, List<GetSampleProduct>>
     {
@@ -14,12 +14,12 @@ namespace BusinessLayer.SampleProduct.Query.Business
 
         public GetCustomerOrdersQueryHandler(ISqlConnectionFactory sqlConnectionFactory)
         {
-            this._sqlConnectionFactory = sqlConnectionFactory;
+            _sqlConnectionFactory = sqlConnectionFactory;
         }
 
         public async Task<List<GetSampleProduct>> Handle(GetSampleProduct request, CancellationToken cancellationToken)
         {
-            var connection = this._sqlConnectionFactory.GetOpenConnection();
+            var connection = _sqlConnectionFactory.GetOpenConnection();
 
             const string sql = "SELECT " +
                                "[Order].[Id], " +

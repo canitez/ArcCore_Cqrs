@@ -1,7 +1,7 @@
-﻿using CoreLayer.EntityFrameworkRepository;
-using EntityLayer.DbLayer.Command;
+﻿using Core.EntityFrameworkRepository;
+using Entity.DbLayer.Command;
 
-namespace DataAccessLayer.AppLayer.Command
+namespace DataAccess.AppLayer.Command
 {
     public interface ISampleProductDal : IEntitiyRepository<SampleProductCommandModel>
     {

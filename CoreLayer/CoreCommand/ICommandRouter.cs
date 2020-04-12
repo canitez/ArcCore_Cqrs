@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace CoreLayer.CoreCommand
+namespace Core.CoreCommand
 {
     public interface ICommandRouter<in TCommand> : IRequestHandler<TCommand> where TCommand : ICommand
     {

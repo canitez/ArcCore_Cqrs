@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ApiLayer.Controllers
+namespace Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -33,6 +33,6 @@ namespace ApiLayer.Controllers
             return await _mediator.Send(command);
         }
 
-  
+
     }
 }

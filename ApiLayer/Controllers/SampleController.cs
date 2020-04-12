@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
-using BusinessLayer.SampleProduct.Query.Model;
-using EntityLayer.DbLayer.Command;
+using Application.SampleProduct.Query.Model;
+using Entity.DbLayer.Command;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ApiLayer.Controllers
+namespace Api.Controllers
 {
     public class SampleController : BaseController
     {
@@ -26,11 +26,11 @@ namespace ApiLayer.Controllers
             return Single(await QueryAsync(new GetSampleProduct(SampleProductId)));
         }
 
-   
+
         [HttpPost]
         [ProducesResponseType(200)]
         [ProducesResponseType(400)]
-        public async Task<ActionResult> CreateCustomerAsync([FromBody] SampleProductCommandModel command)
+        public async Task<ActionResult> CreateSampleProductAsync([FromBody] SampleProductCommandModel command)
         {
             return Ok(await CommandAsync(command));
         }
