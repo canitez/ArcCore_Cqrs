@@ -5,9 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CoreLayer\Core.csproj" />
-    <ProjectReference Include="..\DataAccessLayer\DataAccess.csproj" />
-    <ProjectReference Include="..\EntityLayer\Entity.csproj" />
+    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+    <ProjectReference Include="..\Entity\Entity.csproj" />
   </ItemGroup>
 
 </Project>

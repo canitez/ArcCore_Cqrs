@@ -10,8 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CoreLayer\Core.csproj" />
-    <ProjectReference Include="..\EntityLayer\Entity.csproj" />
+    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\Entity\Entity.csproj" />
   </ItemGroup>
 
 </Project>

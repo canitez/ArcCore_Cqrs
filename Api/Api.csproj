@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLayer\Application.csproj" />
+    <ProjectReference Include="..\Business\Application.csproj" />
   </ItemGroup>
 
 
