@@ -1,8 +1,14 @@
+using System;
+using System.Reflection;
+using Application.SampleProduct.Query.Model;
+using DataAccess.AppLayer.Command;
+using DataAccess.DbEntity.Command;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MediatR;
 
 namespace Api
 {
@@ -19,6 +25,9 @@ namespace Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddMediatR(typeof(ISampleProductDal).GetTypeInfo().Assembly);
+            services.AddSingleton<ISampleProductDal, SampleProductDal>();
+            services.AddMediatR(typeof(GetSampleProduct).GetTypeInfo().Assembly);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -30,6 +39,7 @@ namespace Api
             }
 
             app.UseHttpsRedirection();
+
 
             app.UseRouting();
 

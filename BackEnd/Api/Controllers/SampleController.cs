@@ -9,8 +9,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Controllers
 {
-    [Route("api/Sample")]
-
+    [ApiController]
+    [Route("[controller]")]
     public class SampleController : BaseController
     {
         private readonly IMediator _mediator;
@@ -20,8 +20,7 @@ namespace Api.Controllers
             _mediator = mediator;
         }
 
-        [Route("")]
-        [HttpPost]
+        [HttpGet]
         [ProducesResponseType(typeof(List<GetSampleProduct>), (int)HttpStatusCode.OK)]
         public async Task<IActionResult> GetSampleProduct(Guid SampleProductId)
         {
