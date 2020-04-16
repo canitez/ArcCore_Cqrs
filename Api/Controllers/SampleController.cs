@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Controllers
 {
+    [Route("api/Sample")]
+
     public class SampleController : BaseController
     {
         private readonly IMediator _mediator;
