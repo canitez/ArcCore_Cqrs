@@ -17,260 +17,261 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity", "BackEnd\Entity\En
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "BackEnd\Domain\Domain.csproj", "{6A5D2342-8830-4031-9629-7817659330EB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{EE3F3048-FC18-4F4A-8054-FCFD95AD75FA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{456F8DE5-AAAD-477B-A82A-A6BD090B2C03}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\.editorconfig = ..\..\..\Desktop\FrontEnd\.editorconfig
-		..\..\..\Desktop\FrontEnd\.gitignore = ..\..\..\Desktop\FrontEnd\.gitignore
-		..\..\..\Desktop\FrontEnd\angular.json = ..\..\..\Desktop\FrontEnd\angular.json
-		..\..\..\Desktop\FrontEnd\browserslist = ..\..\..\Desktop\FrontEnd\browserslist
-		..\..\..\Desktop\FrontEnd\CHANGELOG.md = ..\..\..\Desktop\FrontEnd\CHANGELOG.md
-		..\..\..\Desktop\FrontEnd\ISSUE_TEMPLATE.md = ..\..\..\Desktop\FrontEnd\ISSUE_TEMPLATE.md
-		..\..\..\Desktop\FrontEnd\karma.conf.js = ..\..\..\Desktop\FrontEnd\karma.conf.js
-		..\..\..\Desktop\FrontEnd\LICENSE.md = ..\..\..\Desktop\FrontEnd\LICENSE.md
-		..\..\..\Desktop\FrontEnd\package.json = ..\..\..\Desktop\FrontEnd\package.json
-		..\..\..\Desktop\FrontEnd\protractor.conf.js = ..\..\..\Desktop\FrontEnd\protractor.conf.js
-		..\..\..\Desktop\FrontEnd\README.md = ..\..\..\Desktop\FrontEnd\README.md
-		..\..\..\Desktop\FrontEnd\tsconfig.json = ..\..\..\Desktop\FrontEnd\tsconfig.json
-		..\..\..\Desktop\FrontEnd\tslint.json = ..\..\..\Desktop\FrontEnd\tslint.json
+		FrontEnd\.editorconfig = FrontEnd\.editorconfig
+		FrontEnd\.gitignore = FrontEnd\.gitignore
+		FrontEnd\angular.json = FrontEnd\angular.json
+		FrontEnd\browserslist = FrontEnd\browserslist
+		FrontEnd\CHANGELOG.md = FrontEnd\CHANGELOG.md
+		FrontEnd\ISSUE_TEMPLATE.md = FrontEnd\ISSUE_TEMPLATE.md
+		FrontEnd\karma.conf.js = FrontEnd\karma.conf.js
+		Komutlar.txt = Komutlar.txt
+		FrontEnd\LICENSE.md = FrontEnd\LICENSE.md
+		FrontEnd\package.json = FrontEnd\package.json
+		FrontEnd\protractor.conf.js = FrontEnd\protractor.conf.js
+		FrontEnd\README.md = FrontEnd\README.md
+		FrontEnd\tsconfig.json = FrontEnd\tsconfig.json
+		FrontEnd\tslint.json = FrontEnd\tslint.json
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "e2e", "e2e", "{85CC2F56-FDD3-40D9-9CD9-EC2946489522}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "e2e", "e2e", "{954BE74F-2B8E-483D-94DE-DE73472E1E07}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\e2e\app.e2e-spec.ts = ..\..\..\Desktop\FrontEnd\e2e\app.e2e-spec.ts
-		..\..\..\Desktop\FrontEnd\e2e\app.po.ts = ..\..\..\Desktop\FrontEnd\e2e\app.po.ts
-		..\..\..\Desktop\FrontEnd\e2e\tsconfig.e2e.json = ..\..\..\Desktop\FrontEnd\e2e\tsconfig.e2e.json
+		FrontEnd\e2e\app.e2e-spec.ts = FrontEnd\e2e\app.e2e-spec.ts
+		FrontEnd\e2e\app.po.ts = FrontEnd\e2e\app.po.ts
+		FrontEnd\e2e\tsconfig.e2e.json = FrontEnd\e2e\tsconfig.e2e.json
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{80981187-65B0-4837-9218-29B50BD59EB6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9B87F131-1C62-4266-A78E-63E8FDEB71F8}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\favicon.ico = ..\..\..\Desktop\FrontEnd\src\favicon.ico
-		..\..\..\Desktop\FrontEnd\src\index.html = ..\..\..\Desktop\FrontEnd\src\index.html
-		..\..\..\Desktop\FrontEnd\src\main.ts = ..\..\..\Desktop\FrontEnd\src\main.ts
-		..\..\..\Desktop\FrontEnd\src\polyfills.ts = ..\..\..\Desktop\FrontEnd\src\polyfills.ts
-		..\..\..\Desktop\FrontEnd\src\styles.css = ..\..\..\Desktop\FrontEnd\src\styles.css
-		..\..\..\Desktop\FrontEnd\src\test.ts = ..\..\..\Desktop\FrontEnd\src\test.ts
-		..\..\..\Desktop\FrontEnd\src\tsconfig.app.json = ..\..\..\Desktop\FrontEnd\src\tsconfig.app.json
-		..\..\..\Desktop\FrontEnd\src\tsconfig.spec.json = ..\..\..\Desktop\FrontEnd\src\tsconfig.spec.json
-		..\..\..\Desktop\FrontEnd\src\typings.d.ts = ..\..\..\Desktop\FrontEnd\src\typings.d.ts
+		FrontEnd\src\favicon.ico = FrontEnd\src\favicon.ico
+		FrontEnd\src\index.html = FrontEnd\src\index.html
+		FrontEnd\src\main.ts = FrontEnd\src\main.ts
+		FrontEnd\src\polyfills.ts = FrontEnd\src\polyfills.ts
+		FrontEnd\src\styles.css = FrontEnd\src\styles.css
+		FrontEnd\src\test.ts = FrontEnd\src\test.ts
+		FrontEnd\src\tsconfig.app.json = FrontEnd\src\tsconfig.app.json
+		FrontEnd\src\tsconfig.spec.json = FrontEnd\src\tsconfig.spec.json
+		FrontEnd\src\typings.d.ts = FrontEnd\src\typings.d.ts
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{196B702B-72BB-4BD2-89D5-F694645D24AD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{BE598A29-6993-4548-8AC2-9107BD34F4D1}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\app\app.component.css = ..\..\..\Desktop\FrontEnd\src\app\app.component.css
-		..\..\..\Desktop\FrontEnd\src\app\app.component.html = ..\..\..\Desktop\FrontEnd\src\app\app.component.html
-		..\..\..\Desktop\FrontEnd\src\app\app.component.spec.ts = ..\..\..\Desktop\FrontEnd\src\app\app.component.spec.ts
-		..\..\..\Desktop\FrontEnd\src\app\app.component.ts = ..\..\..\Desktop\FrontEnd\src\app\app.component.ts
-		..\..\..\Desktop\FrontEnd\src\app\app.module.ts = ..\..\..\Desktop\FrontEnd\src\app\app.module.ts
-		..\..\..\Desktop\FrontEnd\src\app\app.routing.ts = ..\..\..\Desktop\FrontEnd\src\app\app.routing.ts
+		FrontEnd\src\app\app.component.css = FrontEnd\src\app\app.component.css
+		FrontEnd\src\app\app.component.html = FrontEnd\src\app\app.component.html
+		FrontEnd\src\app\app.component.spec.ts = FrontEnd\src\app\app.component.spec.ts
+		FrontEnd\src\app\app.component.ts = FrontEnd\src\app\app.component.ts
+		FrontEnd\src\app\app.module.ts = FrontEnd\src\app\app.module.ts
+		FrontEnd\src\app\app.routing.ts = FrontEnd\src\app\app.routing.ts
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "layouts", "layouts", "{39563862-56B6-42B7-8C40-CC464ACAD34A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "layouts", "layouts", "{03061D8E-C0A8-4747-B188-4DBE2520F793}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "admin-layout", "admin-layout", "{641D9E08-E212-4CD4-B0A1-0178DBBC96BF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "admin-layout", "admin-layout", "{53ACF9B9-4C1D-4F6F-9E3D-D6C66ABF29D0}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\app\layouts\admin-layout\admin-layout.component.html = ..\..\..\Desktop\FrontEnd\src\app\layouts\admin-layout\admin-layout.component.html
-		..\..\..\Desktop\FrontEnd\src\app\layouts\admin-layout\admin-layout.component.scss = ..\..\..\Desktop\FrontEnd\src\app\layouts\admin-layout\admin-layout.component.scss
-		..\..\..\Desktop\FrontEnd\src\app\layouts\admin-layout\admin-layout.component.spec.ts = ..\..\..\Desktop\FrontEnd\src\app\layouts\admin-layout\admin-layout.component.spec.ts
-		..\..\..\Desktop\FrontEnd\src\app\layouts\admin-layout\admin-layout.component.ts = ..\..\..\Desktop\FrontEnd\src\app\layouts\admin-layout\admin-layout.component.ts
-		..\..\..\Desktop\FrontEnd\src\app\layouts\admin-layout\admin-layout.module.ts = ..\..\..\Desktop\FrontEnd\src\app\layouts\admin-layout\admin-layout.module.ts
-		..\..\..\Desktop\FrontEnd\src\app\layouts\admin-layout\admin-layout.routing.ts = ..\..\..\Desktop\FrontEnd\src\app\layouts\admin-layout\admin-layout.routing.ts
+		FrontEnd\src\app\layouts\admin-layout\admin-layout.component.html = FrontEnd\src\app\layouts\admin-layout\admin-layout.component.html
+		FrontEnd\src\app\layouts\admin-layout\admin-layout.component.scss = FrontEnd\src\app\layouts\admin-layout\admin-layout.component.scss
+		FrontEnd\src\app\layouts\admin-layout\admin-layout.component.spec.ts = FrontEnd\src\app\layouts\admin-layout\admin-layout.component.spec.ts
+		FrontEnd\src\app\layouts\admin-layout\admin-layout.component.ts = FrontEnd\src\app\layouts\admin-layout\admin-layout.component.ts
+		FrontEnd\src\app\layouts\admin-layout\admin-layout.module.ts = FrontEnd\src\app\layouts\admin-layout\admin-layout.module.ts
+		FrontEnd\src\app\layouts\admin-layout\admin-layout.routing.ts = FrontEnd\src\app\layouts\admin-layout\admin-layout.routing.ts
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pages", "pages", "{72B3DD11-8173-4247-B6DB-5A305F28331A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pages", "pages", "{7E7E4C56-2E61-44F6-9C9A-46E9CA9BEF7C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dashboard", "dashboard", "{F776FCA9-0C67-45B9-86F7-9ADE31DBA006}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dashboard", "dashboard", "{916EA4BC-3BA7-4A49-8401-7086177390CC}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\app\pages\dashboard\dashboard.component.html = ..\..\..\Desktop\FrontEnd\src\app\pages\dashboard\dashboard.component.html
-		..\..\..\Desktop\FrontEnd\src\app\pages\dashboard\dashboard.component.ts = ..\..\..\Desktop\FrontEnd\src\app\pages\dashboard\dashboard.component.ts
+		FrontEnd\src\app\pages\dashboard\dashboard.component.html = FrontEnd\src\app\pages\dashboard\dashboard.component.html
+		FrontEnd\src\app\pages\dashboard\dashboard.component.ts = FrontEnd\src\app\pages\dashboard\dashboard.component.ts
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "icons", "icons", "{BF2521BC-F9EF-42B4-812F-118D475BFC71}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "icons", "icons", "{A795D3B0-7980-4894-BC49-2A69E02CE08C}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\app\pages\icons\icons.component.html = ..\..\..\Desktop\FrontEnd\src\app\pages\icons\icons.component.html
-		..\..\..\Desktop\FrontEnd\src\app\pages\icons\icons.component.ts = ..\..\..\Desktop\FrontEnd\src\app\pages\icons\icons.component.ts
+		FrontEnd\src\app\pages\icons\icons.component.html = FrontEnd\src\app\pages\icons\icons.component.html
+		FrontEnd\src\app\pages\icons\icons.component.ts = FrontEnd\src\app\pages\icons\icons.component.ts
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "maps", "maps", "{CDBD297B-DFD2-4F57-90D3-696791F551F6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "maps", "maps", "{3269DC3A-4C39-482D-8BA0-E1495160418D}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\app\pages\maps\maps.component.html = ..\..\..\Desktop\FrontEnd\src\app\pages\maps\maps.component.html
-		..\..\..\Desktop\FrontEnd\src\app\pages\maps\maps.component.ts = ..\..\..\Desktop\FrontEnd\src\app\pages\maps\maps.component.ts
+		FrontEnd\src\app\pages\maps\maps.component.html = FrontEnd\src\app\pages\maps\maps.component.html
+		FrontEnd\src\app\pages\maps\maps.component.ts = FrontEnd\src\app\pages\maps\maps.component.ts
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "notifications", "notifications", "{28C61E87-8B42-4627-86F2-5DA9D7AF803F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "notifications", "notifications", "{97DE4906-9137-481D-B786-0EFD2E6ACB7F}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\app\pages\notifications\notifications.component.html = ..\..\..\Desktop\FrontEnd\src\app\pages\notifications\notifications.component.html
-		..\..\..\Desktop\FrontEnd\src\app\pages\notifications\notifications.component.ts = ..\..\..\Desktop\FrontEnd\src\app\pages\notifications\notifications.component.ts
+		FrontEnd\src\app\pages\notifications\notifications.component.html = FrontEnd\src\app\pages\notifications\notifications.component.html
+		FrontEnd\src\app\pages\notifications\notifications.component.ts = FrontEnd\src\app\pages\notifications\notifications.component.ts
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "table", "table", "{C5F82601-3284-4526-ADB5-A0F06614F718}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "table", "table", "{0B9382C7-FE34-44A3-A5F9-350183CE4B6E}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\app\pages\table\table.component.html = ..\..\..\Desktop\FrontEnd\src\app\pages\table\table.component.html
-		..\..\..\Desktop\FrontEnd\src\app\pages\table\table.component.ts = ..\..\..\Desktop\FrontEnd\src\app\pages\table\table.component.ts
+		FrontEnd\src\app\pages\table\table.component.html = FrontEnd\src\app\pages\table\table.component.html
+		FrontEnd\src\app\pages\table\table.component.ts = FrontEnd\src\app\pages\table\table.component.ts
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "typography", "typography", "{A0EBE157-EC73-4546-8993-49AB1A25CC3E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "typography", "typography", "{4DD4E21C-73FE-4F1D-ADEA-20E622B1AA57}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\app\pages\typography\typography.component.html = ..\..\..\Desktop\FrontEnd\src\app\pages\typography\typography.component.html
-		..\..\..\Desktop\FrontEnd\src\app\pages\typography\typography.component.ts = ..\..\..\Desktop\FrontEnd\src\app\pages\typography\typography.component.ts
+		FrontEnd\src\app\pages\typography\typography.component.html = FrontEnd\src\app\pages\typography\typography.component.html
+		FrontEnd\src\app\pages\typography\typography.component.ts = FrontEnd\src\app\pages\typography\typography.component.ts
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "upgrade", "upgrade", "{DBCB8009-F2B4-4D49-814B-AD42AFE1058C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "upgrade", "upgrade", "{CB884F2F-92E9-4584-A4C0-55DB0E152AD2}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\app\pages\upgrade\upgrade.component.html = ..\..\..\Desktop\FrontEnd\src\app\pages\upgrade\upgrade.component.html
-		..\..\..\Desktop\FrontEnd\src\app\pages\upgrade\upgrade.component.ts = ..\..\..\Desktop\FrontEnd\src\app\pages\upgrade\upgrade.component.ts
+		FrontEnd\src\app\pages\upgrade\upgrade.component.html = FrontEnd\src\app\pages\upgrade\upgrade.component.html
+		FrontEnd\src\app\pages\upgrade\upgrade.component.ts = FrontEnd\src\app\pages\upgrade\upgrade.component.ts
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "user", "user", "{E211AA8D-5483-47FB-B671-179895728071}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "user", "user", "{B2F98BD6-3FF0-4508-AC2B-A9C313FB7900}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\app\pages\user\user.component.html = ..\..\..\Desktop\FrontEnd\src\app\pages\user\user.component.html
-		..\..\..\Desktop\FrontEnd\src\app\pages\user\user.component.ts = ..\..\..\Desktop\FrontEnd\src\app\pages\user\user.component.ts
+		FrontEnd\src\app\pages\user\user.component.html = FrontEnd\src\app\pages\user\user.component.html
+		FrontEnd\src\app\pages\user\user.component.ts = FrontEnd\src\app\pages\user\user.component.ts
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{085A791D-192B-4E0B-AF8D-8B8CCECF0D94}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{EAEFF870-4616-47BC-94A4-5B75650B3055}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fixedplugin", "fixedplugin", "{17846A8E-8DFA-43D4-8683-B2465E0DDADD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fixedplugin", "fixedplugin", "{26A496E3-8055-4F8D-A7D3-D2F026BC3DFF}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\app\shared\fixedplugin\fixedplugin.component.html = ..\..\..\Desktop\FrontEnd\src\app\shared\fixedplugin\fixedplugin.component.html
-		..\..\..\Desktop\FrontEnd\src\app\shared\fixedplugin\fixedplugin.component.ts = ..\..\..\Desktop\FrontEnd\src\app\shared\fixedplugin\fixedplugin.component.ts
-		..\..\..\Desktop\FrontEnd\src\app\shared\fixedplugin\fixedplugin.module.ts = ..\..\..\Desktop\FrontEnd\src\app\shared\fixedplugin\fixedplugin.module.ts
+		FrontEnd\src\app\shared\fixedplugin\fixedplugin.component.html = FrontEnd\src\app\shared\fixedplugin\fixedplugin.component.html
+		FrontEnd\src\app\shared\fixedplugin\fixedplugin.component.ts = FrontEnd\src\app\shared\fixedplugin\fixedplugin.component.ts
+		FrontEnd\src\app\shared\fixedplugin\fixedplugin.module.ts = FrontEnd\src\app\shared\fixedplugin\fixedplugin.module.ts
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "footer", "footer", "{2DB3369A-8236-410B-AB65-FA014EFDDCA3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "footer", "footer", "{B995CDBE-22D2-46D5-9D5E-0062AA9A2384}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\app\shared\footer\footer.component.html = ..\..\..\Desktop\FrontEnd\src\app\shared\footer\footer.component.html
-		..\..\..\Desktop\FrontEnd\src\app\shared\footer\footer.component.ts = ..\..\..\Desktop\FrontEnd\src\app\shared\footer\footer.component.ts
-		..\..\..\Desktop\FrontEnd\src\app\shared\footer\footer.module.ts = ..\..\..\Desktop\FrontEnd\src\app\shared\footer\footer.module.ts
+		FrontEnd\src\app\shared\footer\footer.component.html = FrontEnd\src\app\shared\footer\footer.component.html
+		FrontEnd\src\app\shared\footer\footer.component.ts = FrontEnd\src\app\shared\footer\footer.component.ts
+		FrontEnd\src\app\shared\footer\footer.module.ts = FrontEnd\src\app\shared\footer\footer.module.ts
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "navbar", "navbar", "{5BFCD818-F192-449B-901F-A62983678D92}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "navbar", "navbar", "{7A91E390-8BDF-488C-B725-DB4C0BFFC103}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\app\shared\navbar\navbar.component.html = ..\..\..\Desktop\FrontEnd\src\app\shared\navbar\navbar.component.html
-		..\..\..\Desktop\FrontEnd\src\app\shared\navbar\navbar.component.ts = ..\..\..\Desktop\FrontEnd\src\app\shared\navbar\navbar.component.ts
-		..\..\..\Desktop\FrontEnd\src\app\shared\navbar\navbar.module.ts = ..\..\..\Desktop\FrontEnd\src\app\shared\navbar\navbar.module.ts
+		FrontEnd\src\app\shared\navbar\navbar.component.html = FrontEnd\src\app\shared\navbar\navbar.component.html
+		FrontEnd\src\app\shared\navbar\navbar.component.ts = FrontEnd\src\app\shared\navbar\navbar.component.ts
+		FrontEnd\src\app\shared\navbar\navbar.module.ts = FrontEnd\src\app\shared\navbar\navbar.module.ts
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sidebar", "sidebar", "{9B1451AE-EA42-4390-A3ED-4FFE47FAC5FB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sidebar", "sidebar", "{75F60EC7-3338-4FEC-86D5-B19298227D04}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\app\sidebar\sidebar.component.html = ..\..\..\Desktop\FrontEnd\src\app\sidebar\sidebar.component.html
-		..\..\..\Desktop\FrontEnd\src\app\sidebar\sidebar.component.ts = ..\..\..\Desktop\FrontEnd\src\app\sidebar\sidebar.component.ts
-		..\..\..\Desktop\FrontEnd\src\app\sidebar\sidebar.module.ts = ..\..\..\Desktop\FrontEnd\src\app\sidebar\sidebar.module.ts
+		FrontEnd\src\app\sidebar\sidebar.component.html = FrontEnd\src\app\sidebar\sidebar.component.html
+		FrontEnd\src\app\sidebar\sidebar.component.ts = FrontEnd\src\app\sidebar\sidebar.component.ts
+		FrontEnd\src\app\sidebar\sidebar.module.ts = FrontEnd\src\app\sidebar\sidebar.module.ts
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{90BB7EEA-A7A3-45D0-8F30-3337D02135C0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{1A1C907E-53B5-421A-AE61-EC063B012D59}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{EBF83492-5C76-43DB-9AF6-5F3F255B229D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{A3F37AE6-5B24-450D-96EE-69C25B0FC1A5}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\assets\css\demo.css = ..\..\..\Desktop\FrontEnd\src\assets\css\demo.css
+		FrontEnd\src\assets\css\demo.css = FrontEnd\src\assets\css\demo.css
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{0182D912-BCB7-4976-A9E1-9F7E8224D0B1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{FBE42F64-C24B-48CB-847E-9E8665138E34}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\assets\fonts\nucleo-icons.eot = ..\..\..\Desktop\FrontEnd\src\assets\fonts\nucleo-icons.eot
-		..\..\..\Desktop\FrontEnd\src\assets\fonts\nucleo-icons.ttf = ..\..\..\Desktop\FrontEnd\src\assets\fonts\nucleo-icons.ttf
-		..\..\..\Desktop\FrontEnd\src\assets\fonts\nucleo-icons.woff = ..\..\..\Desktop\FrontEnd\src\assets\fonts\nucleo-icons.woff
-		..\..\..\Desktop\FrontEnd\src\assets\fonts\nucleo-icons.woff2 = ..\..\..\Desktop\FrontEnd\src\assets\fonts\nucleo-icons.woff2
+		FrontEnd\src\assets\fonts\nucleo-icons.eot = FrontEnd\src\assets\fonts\nucleo-icons.eot
+		FrontEnd\src\assets\fonts\nucleo-icons.ttf = FrontEnd\src\assets\fonts\nucleo-icons.ttf
+		FrontEnd\src\assets\fonts\nucleo-icons.woff = FrontEnd\src\assets\fonts\nucleo-icons.woff
+		FrontEnd\src\assets\fonts\nucleo-icons.woff2 = FrontEnd\src\assets\fonts\nucleo-icons.woff2
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{67C52403-E3C2-4810-A85E-2CB6B855F173}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{6A923977-DBD3-4C92-A951-F7225B5FC1AF}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\assets\img\angular.png = ..\..\..\Desktop\FrontEnd\src\assets\img\angular.png
-		..\..\..\Desktop\FrontEnd\src\assets\img\angular2-logo-white.png = ..\..\..\Desktop\FrontEnd\src\assets\img\angular2-logo-white.png
-		..\..\..\Desktop\FrontEnd\src\assets\img\angular2-logo.png = ..\..\..\Desktop\FrontEnd\src\assets\img\angular2-logo.png
-		..\..\..\Desktop\FrontEnd\src\assets\img\apple-icon.png = ..\..\..\Desktop\FrontEnd\src\assets\img\apple-icon.png
-		..\..\..\Desktop\FrontEnd\src\assets\img\bg5.jpg = ..\..\..\Desktop\FrontEnd\src\assets\img\bg5.jpg
-		..\..\..\Desktop\FrontEnd\src\assets\img\damir-bosnjak.jpg = ..\..\..\Desktop\FrontEnd\src\assets\img\damir-bosnjak.jpg
-		..\..\..\Desktop\FrontEnd\src\assets\img\default-avatar.png = ..\..\..\Desktop\FrontEnd\src\assets\img\default-avatar.png
-		..\..\..\Desktop\FrontEnd\src\assets\img\favicon.png = ..\..\..\Desktop\FrontEnd\src\assets\img\favicon.png
-		..\..\..\Desktop\FrontEnd\src\assets\img\header.jpg = ..\..\..\Desktop\FrontEnd\src\assets\img\header.jpg
-		..\..\..\Desktop\FrontEnd\src\assets\img\jan-sendereks.jpg = ..\..\..\Desktop\FrontEnd\src\assets\img\jan-sendereks.jpg
-		..\..\..\Desktop\FrontEnd\src\assets\img\logo-small.png = ..\..\..\Desktop\FrontEnd\src\assets\img\logo-small.png
-		..\..\..\Desktop\FrontEnd\src\assets\img\mike.jpg = ..\..\..\Desktop\FrontEnd\src\assets\img\mike.jpg
+		FrontEnd\src\assets\img\angular.png = FrontEnd\src\assets\img\angular.png
+		FrontEnd\src\assets\img\angular2-logo-white.png = FrontEnd\src\assets\img\angular2-logo-white.png
+		FrontEnd\src\assets\img\angular2-logo.png = FrontEnd\src\assets\img\angular2-logo.png
+		FrontEnd\src\assets\img\apple-icon.png = FrontEnd\src\assets\img\apple-icon.png
+		FrontEnd\src\assets\img\bg5.jpg = FrontEnd\src\assets\img\bg5.jpg
+		FrontEnd\src\assets\img\damir-bosnjak.jpg = FrontEnd\src\assets\img\damir-bosnjak.jpg
+		FrontEnd\src\assets\img\default-avatar.png = FrontEnd\src\assets\img\default-avatar.png
+		FrontEnd\src\assets\img\favicon.png = FrontEnd\src\assets\img\favicon.png
+		FrontEnd\src\assets\img\header.jpg = FrontEnd\src\assets\img\header.jpg
+		FrontEnd\src\assets\img\jan-sendereks.jpg = FrontEnd\src\assets\img\jan-sendereks.jpg
+		FrontEnd\src\assets\img\logo-small.png = FrontEnd\src\assets\img\logo-small.png
+		FrontEnd\src\assets\img\mike.jpg = FrontEnd\src\assets\img\mike.jpg
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "faces", "faces", "{2B7E0109-0F08-44F2-80BB-35BF96BE2483}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "faces", "faces", "{A26A195F-FB7E-4CFB-96D2-D95B0AB5ABD5}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\assets\img\faces\ayo-ogunseinde-1.jpg = ..\..\..\Desktop\FrontEnd\src\assets\img\faces\ayo-ogunseinde-1.jpg
-		..\..\..\Desktop\FrontEnd\src\assets\img\faces\ayo-ogunseinde-2.jpg = ..\..\..\Desktop\FrontEnd\src\assets\img\faces\ayo-ogunseinde-2.jpg
-		..\..\..\Desktop\FrontEnd\src\assets\img\faces\clem-onojeghuo-1.jpg = ..\..\..\Desktop\FrontEnd\src\assets\img\faces\clem-onojeghuo-1.jpg
-		..\..\..\Desktop\FrontEnd\src\assets\img\faces\clem-onojeghuo-2.jpg = ..\..\..\Desktop\FrontEnd\src\assets\img\faces\clem-onojeghuo-2.jpg
-		..\..\..\Desktop\FrontEnd\src\assets\img\faces\clem-onojeghuo-3.jpg = ..\..\..\Desktop\FrontEnd\src\assets\img\faces\clem-onojeghuo-3.jpg
-		..\..\..\Desktop\FrontEnd\src\assets\img\faces\clem-onojeghuo-4.jpg = ..\..\..\Desktop\FrontEnd\src\assets\img\faces\clem-onojeghuo-4.jpg
-		..\..\..\Desktop\FrontEnd\src\assets\img\faces\erik-lucatero-1.jpg = ..\..\..\Desktop\FrontEnd\src\assets\img\faces\erik-lucatero-1.jpg
-		..\..\..\Desktop\FrontEnd\src\assets\img\faces\erik-lucatero-2.jpg = ..\..\..\Desktop\FrontEnd\src\assets\img\faces\erik-lucatero-2.jpg
-		..\..\..\Desktop\FrontEnd\src\assets\img\faces\joe-gardner-1.jpg = ..\..\..\Desktop\FrontEnd\src\assets\img\faces\joe-gardner-1.jpg
-		..\..\..\Desktop\FrontEnd\src\assets\img\faces\joe-gardner-2.jpg = ..\..\..\Desktop\FrontEnd\src\assets\img\faces\joe-gardner-2.jpg
-		..\..\..\Desktop\FrontEnd\src\assets\img\faces\kaci-baum-1.jpg = ..\..\..\Desktop\FrontEnd\src\assets\img\faces\kaci-baum-1.jpg
-		..\..\..\Desktop\FrontEnd\src\assets\img\faces\kaci-baum-2.jpg = ..\..\..\Desktop\FrontEnd\src\assets\img\faces\kaci-baum-2.jpg
+		FrontEnd\src\assets\img\faces\ayo-ogunseinde-1.jpg = FrontEnd\src\assets\img\faces\ayo-ogunseinde-1.jpg
+		FrontEnd\src\assets\img\faces\ayo-ogunseinde-2.jpg = FrontEnd\src\assets\img\faces\ayo-ogunseinde-2.jpg
+		FrontEnd\src\assets\img\faces\clem-onojeghuo-1.jpg = FrontEnd\src\assets\img\faces\clem-onojeghuo-1.jpg
+		FrontEnd\src\assets\img\faces\clem-onojeghuo-2.jpg = FrontEnd\src\assets\img\faces\clem-onojeghuo-2.jpg
+		FrontEnd\src\assets\img\faces\clem-onojeghuo-3.jpg = FrontEnd\src\assets\img\faces\clem-onojeghuo-3.jpg
+		FrontEnd\src\assets\img\faces\clem-onojeghuo-4.jpg = FrontEnd\src\assets\img\faces\clem-onojeghuo-4.jpg
+		FrontEnd\src\assets\img\faces\erik-lucatero-1.jpg = FrontEnd\src\assets\img\faces\erik-lucatero-1.jpg
+		FrontEnd\src\assets\img\faces\erik-lucatero-2.jpg = FrontEnd\src\assets\img\faces\erik-lucatero-2.jpg
+		FrontEnd\src\assets\img\faces\joe-gardner-1.jpg = FrontEnd\src\assets\img\faces\joe-gardner-1.jpg
+		FrontEnd\src\assets\img\faces\joe-gardner-2.jpg = FrontEnd\src\assets\img\faces\joe-gardner-2.jpg
+		FrontEnd\src\assets\img\faces\kaci-baum-1.jpg = FrontEnd\src\assets\img\faces\kaci-baum-1.jpg
+		FrontEnd\src\assets\img\faces\kaci-baum-2.jpg = FrontEnd\src\assets\img\faces\kaci-baum-2.jpg
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scss", "scss", "{D59F8543-2435-467D-A8D0-2BA8ED39712E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scss", "scss", "{B0077F05-18FF-451F-A4AB-317C5D447630}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard.scss
+		FrontEnd\src\assets\scss\paper-dashboard.scss = FrontEnd\src\assets\scss\paper-dashboard.scss
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "paper-dashboard", "paper-dashboard", "{D8335EEC-38E3-4DA7-A893-2A41CE8A9AA9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "paper-dashboard", "paper-dashboard", "{455261F8-CE67-4283-8FB4-20437D6F9220}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_alerts.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_alerts.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_animated-buttons.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_animated-buttons.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_buttons.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_buttons.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_cards.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_cards.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_checkboxes-radio.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_checkboxes-radio.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_dropdown.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_dropdown.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_fixed-plugin.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_fixed-plugin.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_footers.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_footers.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_images.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_images.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_inputs.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_inputs.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_misc.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_misc.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_mixins.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_mixins.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_navbar.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_navbar.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_nucleo-outline.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_nucleo-outline.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_page-header.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_page-header.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_responsive.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_responsive.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_sidebar-and-main-panel.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_sidebar-and-main-panel.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_tables.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_tables.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_typography.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_typography.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_variables.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\_variables.scss
+		FrontEnd\src\assets\scss\paper-dashboard\_alerts.scss = FrontEnd\src\assets\scss\paper-dashboard\_alerts.scss
+		FrontEnd\src\assets\scss\paper-dashboard\_animated-buttons.scss = FrontEnd\src\assets\scss\paper-dashboard\_animated-buttons.scss
+		FrontEnd\src\assets\scss\paper-dashboard\_buttons.scss = FrontEnd\src\assets\scss\paper-dashboard\_buttons.scss
+		FrontEnd\src\assets\scss\paper-dashboard\_cards.scss = FrontEnd\src\assets\scss\paper-dashboard\_cards.scss
+		FrontEnd\src\assets\scss\paper-dashboard\_checkboxes-radio.scss = FrontEnd\src\assets\scss\paper-dashboard\_checkboxes-radio.scss
+		FrontEnd\src\assets\scss\paper-dashboard\_dropdown.scss = FrontEnd\src\assets\scss\paper-dashboard\_dropdown.scss
+		FrontEnd\src\assets\scss\paper-dashboard\_fixed-plugin.scss = FrontEnd\src\assets\scss\paper-dashboard\_fixed-plugin.scss
+		FrontEnd\src\assets\scss\paper-dashboard\_footers.scss = FrontEnd\src\assets\scss\paper-dashboard\_footers.scss
+		FrontEnd\src\assets\scss\paper-dashboard\_images.scss = FrontEnd\src\assets\scss\paper-dashboard\_images.scss
+		FrontEnd\src\assets\scss\paper-dashboard\_inputs.scss = FrontEnd\src\assets\scss\paper-dashboard\_inputs.scss
+		FrontEnd\src\assets\scss\paper-dashboard\_misc.scss = FrontEnd\src\assets\scss\paper-dashboard\_misc.scss
+		FrontEnd\src\assets\scss\paper-dashboard\_mixins.scss = FrontEnd\src\assets\scss\paper-dashboard\_mixins.scss
+		FrontEnd\src\assets\scss\paper-dashboard\_navbar.scss = FrontEnd\src\assets\scss\paper-dashboard\_navbar.scss
+		FrontEnd\src\assets\scss\paper-dashboard\_nucleo-outline.scss = FrontEnd\src\assets\scss\paper-dashboard\_nucleo-outline.scss
+		FrontEnd\src\assets\scss\paper-dashboard\_page-header.scss = FrontEnd\src\assets\scss\paper-dashboard\_page-header.scss
+		FrontEnd\src\assets\scss\paper-dashboard\_responsive.scss = FrontEnd\src\assets\scss\paper-dashboard\_responsive.scss
+		FrontEnd\src\assets\scss\paper-dashboard\_sidebar-and-main-panel.scss = FrontEnd\src\assets\scss\paper-dashboard\_sidebar-and-main-panel.scss
+		FrontEnd\src\assets\scss\paper-dashboard\_tables.scss = FrontEnd\src\assets\scss\paper-dashboard\_tables.scss
+		FrontEnd\src\assets\scss\paper-dashboard\_typography.scss = FrontEnd\src\assets\scss\paper-dashboard\_typography.scss
+		FrontEnd\src\assets\scss\paper-dashboard\_variables.scss = FrontEnd\src\assets\scss\paper-dashboard\_variables.scss
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "angular", "angular", "{190C0C4B-E6CF-4A68-AD80-B857AACC2603}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "angular", "angular", "{20122B21-C76D-4306-AD2F-BD4434920011}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\angular\_dropdown.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\angular\_dropdown.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\angular\_fixed-plugin.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\angular\_fixed-plugin.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\angular\_inputs.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\angular\_inputs.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\angular\_plugin-ngx-toastr.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\angular\_plugin-ngx-toastr.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\angular\_sidebar-and-main-panel.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\angular\_sidebar-and-main-panel.scss
+		FrontEnd\src\assets\scss\paper-dashboard\angular\_dropdown.scss = FrontEnd\src\assets\scss\paper-dashboard\angular\_dropdown.scss
+		FrontEnd\src\assets\scss\paper-dashboard\angular\_fixed-plugin.scss = FrontEnd\src\assets\scss\paper-dashboard\angular\_fixed-plugin.scss
+		FrontEnd\src\assets\scss\paper-dashboard\angular\_inputs.scss = FrontEnd\src\assets\scss\paper-dashboard\angular\_inputs.scss
+		FrontEnd\src\assets\scss\paper-dashboard\angular\_plugin-ngx-toastr.scss = FrontEnd\src\assets\scss\paper-dashboard\angular\_plugin-ngx-toastr.scss
+		FrontEnd\src\assets\scss\paper-dashboard\angular\_sidebar-and-main-panel.scss = FrontEnd\src\assets\scss\paper-dashboard\angular\_sidebar-and-main-panel.scss
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cards", "cards", "{71D21AD2-0D62-46D0-9EDC-61E619384D6A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cards", "cards", "{2C1DD1C5-9142-441E-9CAD-6C9D172DC6A7}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\cards\_card-chart.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\cards\_card-chart.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\cards\_card-map.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\cards\_card-map.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\cards\_card-plain.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\cards\_card-plain.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\cards\_card-stats.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\cards\_card-stats.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\cards\_card-user.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\cards\_card-user.scss
+		FrontEnd\src\assets\scss\paper-dashboard\cards\_card-chart.scss = FrontEnd\src\assets\scss\paper-dashboard\cards\_card-chart.scss
+		FrontEnd\src\assets\scss\paper-dashboard\cards\_card-map.scss = FrontEnd\src\assets\scss\paper-dashboard\cards\_card-map.scss
+		FrontEnd\src\assets\scss\paper-dashboard\cards\_card-plain.scss = FrontEnd\src\assets\scss\paper-dashboard\cards\_card-plain.scss
+		FrontEnd\src\assets\scss\paper-dashboard\cards\_card-stats.scss = FrontEnd\src\assets\scss\paper-dashboard\cards\_card-stats.scss
+		FrontEnd\src\assets\scss\paper-dashboard\cards\_card-user.scss = FrontEnd\src\assets\scss\paper-dashboard\cards\_card-user.scss
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mixins", "mixins", "{2AB1D827-04DC-4425-94F8-30EA195841A8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mixins", "mixins", "{CAF6D370-27B4-458C-ACE5-723F68C264C0}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\mixins\_buttons.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\mixins\_buttons.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\mixins\_cards.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\mixins\_cards.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\mixins\_dropdown.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\mixins\_dropdown.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\mixins\_inputs.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\mixins\_inputs.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\mixins\_page-header.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\mixins\_page-header.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\mixins\_transparency.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\mixins\_transparency.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\mixins\_vendor-prefixes.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\mixins\_vendor-prefixes.scss
+		FrontEnd\src\assets\scss\paper-dashboard\mixins\_buttons.scss = FrontEnd\src\assets\scss\paper-dashboard\mixins\_buttons.scss
+		FrontEnd\src\assets\scss\paper-dashboard\mixins\_cards.scss = FrontEnd\src\assets\scss\paper-dashboard\mixins\_cards.scss
+		FrontEnd\src\assets\scss\paper-dashboard\mixins\_dropdown.scss = FrontEnd\src\assets\scss\paper-dashboard\mixins\_dropdown.scss
+		FrontEnd\src\assets\scss\paper-dashboard\mixins\_inputs.scss = FrontEnd\src\assets\scss\paper-dashboard\mixins\_inputs.scss
+		FrontEnd\src\assets\scss\paper-dashboard\mixins\_page-header.scss = FrontEnd\src\assets\scss\paper-dashboard\mixins\_page-header.scss
+		FrontEnd\src\assets\scss\paper-dashboard\mixins\_transparency.scss = FrontEnd\src\assets\scss\paper-dashboard\mixins\_transparency.scss
+		FrontEnd\src\assets\scss\paper-dashboard\mixins\_vendor-prefixes.scss = FrontEnd\src\assets\scss\paper-dashboard\mixins\_vendor-prefixes.scss
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plugins", "plugins", "{169E76E7-960D-4699-A191-2DF6AB62678B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plugins", "plugins", "{C06EF500-9977-48C6-952F-6DFF37C233C1}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\plugins\_plugin-animate-bootstrap-notify.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\plugins\_plugin-animate-bootstrap-notify.scss
-		..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\plugins\_plugin-perfect-scrollbar.scss = ..\..\..\Desktop\FrontEnd\src\assets\scss\paper-dashboard\plugins\_plugin-perfect-scrollbar.scss
+		FrontEnd\src\assets\scss\paper-dashboard\plugins\_plugin-animate-bootstrap-notify.scss = FrontEnd\src\assets\scss\paper-dashboard\plugins\_plugin-animate-bootstrap-notify.scss
+		FrontEnd\src\assets\scss\paper-dashboard\plugins\_plugin-perfect-scrollbar.scss = FrontEnd\src\assets\scss\paper-dashboard\plugins\_plugin-perfect-scrollbar.scss
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "environments", "environments", "{9E61E159-9AB3-4354-8C1E-0009CA8BB46A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "environments", "environments", "{28544782-2E44-42AB-A1C9-B00216ABA665}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\FrontEnd\src\environments\environment.prod.ts = ..\..\..\Desktop\FrontEnd\src\environments\environment.prod.ts
-		..\..\..\Desktop\FrontEnd\src\environments\environment.ts = ..\..\..\Desktop\FrontEnd\src\environments\environment.ts
+		FrontEnd\src\environments\environment.prod.ts = FrontEnd\src\environments\environment.prod.ts
+		FrontEnd\src\environments\environment.ts = FrontEnd\src\environments\environment.ts
 	EndProjectSection
 EndProject
 Global
@@ -314,37 +315,37 @@ Global
 		{494688C8-DF42-4DE2-B384-CFF5E8DFAFF1} = {D2EAB88D-929C-4487-A839-2E3F99057BBD}
 		{870E9900-4D24-4A40-B874-EE07FFFFAA47} = {D2EAB88D-929C-4487-A839-2E3F99057BBD}
 		{6A5D2342-8830-4031-9629-7817659330EB} = {D2EAB88D-929C-4487-A839-2E3F99057BBD}
-		{85CC2F56-FDD3-40D9-9CD9-EC2946489522} = {EE3F3048-FC18-4F4A-8054-FCFD95AD75FA}
-		{80981187-65B0-4837-9218-29B50BD59EB6} = {EE3F3048-FC18-4F4A-8054-FCFD95AD75FA}
-		{196B702B-72BB-4BD2-89D5-F694645D24AD} = {80981187-65B0-4837-9218-29B50BD59EB6}
-		{39563862-56B6-42B7-8C40-CC464ACAD34A} = {196B702B-72BB-4BD2-89D5-F694645D24AD}
-		{641D9E08-E212-4CD4-B0A1-0178DBBC96BF} = {39563862-56B6-42B7-8C40-CC464ACAD34A}
-		{72B3DD11-8173-4247-B6DB-5A305F28331A} = {196B702B-72BB-4BD2-89D5-F694645D24AD}
-		{F776FCA9-0C67-45B9-86F7-9ADE31DBA006} = {72B3DD11-8173-4247-B6DB-5A305F28331A}
-		{BF2521BC-F9EF-42B4-812F-118D475BFC71} = {72B3DD11-8173-4247-B6DB-5A305F28331A}
-		{CDBD297B-DFD2-4F57-90D3-696791F551F6} = {72B3DD11-8173-4247-B6DB-5A305F28331A}
-		{28C61E87-8B42-4627-86F2-5DA9D7AF803F} = {72B3DD11-8173-4247-B6DB-5A305F28331A}
-		{C5F82601-3284-4526-ADB5-A0F06614F718} = {72B3DD11-8173-4247-B6DB-5A305F28331A}
-		{A0EBE157-EC73-4546-8993-49AB1A25CC3E} = {72B3DD11-8173-4247-B6DB-5A305F28331A}
-		{DBCB8009-F2B4-4D49-814B-AD42AFE1058C} = {72B3DD11-8173-4247-B6DB-5A305F28331A}
-		{E211AA8D-5483-47FB-B671-179895728071} = {72B3DD11-8173-4247-B6DB-5A305F28331A}
-		{085A791D-192B-4E0B-AF8D-8B8CCECF0D94} = {196B702B-72BB-4BD2-89D5-F694645D24AD}
-		{17846A8E-8DFA-43D4-8683-B2465E0DDADD} = {085A791D-192B-4E0B-AF8D-8B8CCECF0D94}
-		{2DB3369A-8236-410B-AB65-FA014EFDDCA3} = {085A791D-192B-4E0B-AF8D-8B8CCECF0D94}
-		{5BFCD818-F192-449B-901F-A62983678D92} = {085A791D-192B-4E0B-AF8D-8B8CCECF0D94}
-		{9B1451AE-EA42-4390-A3ED-4FFE47FAC5FB} = {196B702B-72BB-4BD2-89D5-F694645D24AD}
-		{90BB7EEA-A7A3-45D0-8F30-3337D02135C0} = {80981187-65B0-4837-9218-29B50BD59EB6}
-		{EBF83492-5C76-43DB-9AF6-5F3F255B229D} = {90BB7EEA-A7A3-45D0-8F30-3337D02135C0}
-		{0182D912-BCB7-4976-A9E1-9F7E8224D0B1} = {90BB7EEA-A7A3-45D0-8F30-3337D02135C0}
-		{67C52403-E3C2-4810-A85E-2CB6B855F173} = {90BB7EEA-A7A3-45D0-8F30-3337D02135C0}
-		{2B7E0109-0F08-44F2-80BB-35BF96BE2483} = {67C52403-E3C2-4810-A85E-2CB6B855F173}
-		{D59F8543-2435-467D-A8D0-2BA8ED39712E} = {90BB7EEA-A7A3-45D0-8F30-3337D02135C0}
-		{D8335EEC-38E3-4DA7-A893-2A41CE8A9AA9} = {D59F8543-2435-467D-A8D0-2BA8ED39712E}
-		{190C0C4B-E6CF-4A68-AD80-B857AACC2603} = {D8335EEC-38E3-4DA7-A893-2A41CE8A9AA9}
-		{71D21AD2-0D62-46D0-9EDC-61E619384D6A} = {D8335EEC-38E3-4DA7-A893-2A41CE8A9AA9}
-		{2AB1D827-04DC-4425-94F8-30EA195841A8} = {D8335EEC-38E3-4DA7-A893-2A41CE8A9AA9}
-		{169E76E7-960D-4699-A191-2DF6AB62678B} = {D8335EEC-38E3-4DA7-A893-2A41CE8A9AA9}
-		{9E61E159-9AB3-4354-8C1E-0009CA8BB46A} = {80981187-65B0-4837-9218-29B50BD59EB6}
+		{954BE74F-2B8E-483D-94DE-DE73472E1E07} = {456F8DE5-AAAD-477B-A82A-A6BD090B2C03}
+		{9B87F131-1C62-4266-A78E-63E8FDEB71F8} = {456F8DE5-AAAD-477B-A82A-A6BD090B2C03}
+		{BE598A29-6993-4548-8AC2-9107BD34F4D1} = {9B87F131-1C62-4266-A78E-63E8FDEB71F8}
+		{03061D8E-C0A8-4747-B188-4DBE2520F793} = {BE598A29-6993-4548-8AC2-9107BD34F4D1}
+		{53ACF9B9-4C1D-4F6F-9E3D-D6C66ABF29D0} = {03061D8E-C0A8-4747-B188-4DBE2520F793}
+		{7E7E4C56-2E61-44F6-9C9A-46E9CA9BEF7C} = {BE598A29-6993-4548-8AC2-9107BD34F4D1}
+		{916EA4BC-3BA7-4A49-8401-7086177390CC} = {7E7E4C56-2E61-44F6-9C9A-46E9CA9BEF7C}
+		{A795D3B0-7980-4894-BC49-2A69E02CE08C} = {7E7E4C56-2E61-44F6-9C9A-46E9CA9BEF7C}
+		{3269DC3A-4C39-482D-8BA0-E1495160418D} = {7E7E4C56-2E61-44F6-9C9A-46E9CA9BEF7C}
+		{97DE4906-9137-481D-B786-0EFD2E6ACB7F} = {7E7E4C56-2E61-44F6-9C9A-46E9CA9BEF7C}
+		{0B9382C7-FE34-44A3-A5F9-350183CE4B6E} = {7E7E4C56-2E61-44F6-9C9A-46E9CA9BEF7C}
+		{4DD4E21C-73FE-4F1D-ADEA-20E622B1AA57} = {7E7E4C56-2E61-44F6-9C9A-46E9CA9BEF7C}
+		{CB884F2F-92E9-4584-A4C0-55DB0E152AD2} = {7E7E4C56-2E61-44F6-9C9A-46E9CA9BEF7C}
+		{B2F98BD6-3FF0-4508-AC2B-A9C313FB7900} = {7E7E4C56-2E61-44F6-9C9A-46E9CA9BEF7C}
+		{EAEFF870-4616-47BC-94A4-5B75650B3055} = {BE598A29-6993-4548-8AC2-9107BD34F4D1}
+		{26A496E3-8055-4F8D-A7D3-D2F026BC3DFF} = {EAEFF870-4616-47BC-94A4-5B75650B3055}
+		{B995CDBE-22D2-46D5-9D5E-0062AA9A2384} = {EAEFF870-4616-47BC-94A4-5B75650B3055}
+		{7A91E390-8BDF-488C-B725-DB4C0BFFC103} = {EAEFF870-4616-47BC-94A4-5B75650B3055}
+		{75F60EC7-3338-4FEC-86D5-B19298227D04} = {BE598A29-6993-4548-8AC2-9107BD34F4D1}
+		{1A1C907E-53B5-421A-AE61-EC063B012D59} = {9B87F131-1C62-4266-A78E-63E8FDEB71F8}
+		{A3F37AE6-5B24-450D-96EE-69C25B0FC1A5} = {1A1C907E-53B5-421A-AE61-EC063B012D59}
+		{FBE42F64-C24B-48CB-847E-9E8665138E34} = {1A1C907E-53B5-421A-AE61-EC063B012D59}
+		{6A923977-DBD3-4C92-A951-F7225B5FC1AF} = {1A1C907E-53B5-421A-AE61-EC063B012D59}
+		{A26A195F-FB7E-4CFB-96D2-D95B0AB5ABD5} = {6A923977-DBD3-4C92-A951-F7225B5FC1AF}
+		{B0077F05-18FF-451F-A4AB-317C5D447630} = {1A1C907E-53B5-421A-AE61-EC063B012D59}
+		{455261F8-CE67-4283-8FB4-20437D6F9220} = {B0077F05-18FF-451F-A4AB-317C5D447630}
+		{20122B21-C76D-4306-AD2F-BD4434920011} = {455261F8-CE67-4283-8FB4-20437D6F9220}
+		{2C1DD1C5-9142-441E-9CAD-6C9D172DC6A7} = {455261F8-CE67-4283-8FB4-20437D6F9220}
+		{CAF6D370-27B4-458C-ACE5-723F68C264C0} = {455261F8-CE67-4283-8FB4-20437D6F9220}
+		{C06EF500-9977-48C6-952F-6DFF37C233C1} = {455261F8-CE67-4283-8FB4-20437D6F9220}
+		{28544782-2E44-42AB-A1C9-B00216ABA665} = {9B87F131-1C62-4266-A78E-63E8FDEB71F8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF347162-E0AB-4A62-BF0A-248FB258AEE4}
