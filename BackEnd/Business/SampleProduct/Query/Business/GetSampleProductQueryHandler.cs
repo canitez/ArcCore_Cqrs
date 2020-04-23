@@ -10,16 +10,16 @@ namespace Application.SampleProduct.Query.Business
 {
     internal class GetCustomerOrdersQueryHandler : IRequestHandler<GetSampleProduct, List<GetSampleProduct>>
     {
-        //private readonly ISqlConnectionFactory _sqlConnectionFactory;
+        private readonly ISqlConnectionFactory _sqlConnectionFactory;
 
         public GetCustomerOrdersQueryHandler()
         {
-            //_sqlConnectionFactory = sqlConnectionFactory;
+            //sqlConnectionFactory = sqlConnectionFactory;
         }
 
         public async Task<List<GetSampleProduct>> Handle(GetSampleProduct request, CancellationToken cancellationToken)
         {
-            //var connection = _sqlConnectionFactory.GetOpenConnection();
+            var connection = _sqlConnectionFactory.GetOpenConnection();
 
             //const string sql = "SELECT " +
             //                   "[Order].[Id], " +

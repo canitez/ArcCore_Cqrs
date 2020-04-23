@@ -7,7 +7,7 @@ namespace DataAccess.DbEntity.Orm.EntityFramework.QueryContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("");//sql server conf
+            optionsBuilder.UseNpgsql("");//sql server conf
         }
     }
 }
