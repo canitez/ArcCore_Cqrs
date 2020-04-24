@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Core.EntityFrameworkRepository
 {
-    public class EntityRepositoryBase<TEntity, TContext> : IEntitiyRepository<TEntity>
+    public class EntityRepositoryBase<TEntity, TContext> : IEntityRepository<TEntity>
         where TEntity : class, IEntity, new()
         where TContext : BaseDbContext<TContext>, new()
     {

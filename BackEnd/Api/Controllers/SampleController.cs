@@ -22,11 +22,10 @@ namespace Api.Controllers
 
         [HttpGet]
         [ProducesResponseType(typeof(List<GetSampleProduct>), (int)HttpStatusCode.OK)]
-        public async Task<IActionResult> GetSampleProduct(Guid SampleProductId)
+        public async Task<IActionResult> GetSampleProduct(Guid sampleProductId)
         {
-            return Single(await QueryAsync(new GetSampleProduct(SampleProductId)));
+            return Single(await QueryAsync(new GetSampleProduct(sampleProductId)));
         }
-
 
         [HttpPost]
         [ProducesResponseType(200)]

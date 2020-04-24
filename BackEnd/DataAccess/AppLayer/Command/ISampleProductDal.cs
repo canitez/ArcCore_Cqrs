@@ -3,7 +3,7 @@ using Entity.DbLayer.Command;
 
 namespace DataAccess.AppLayer.Command
 {
-    public interface ISampleProductDal : IEntitiyRepository<SampleProductCommandModel>
+    public interface ISampleProductDal : IEntityRepository<SampleProductCommandModel>
     {
     }
 }

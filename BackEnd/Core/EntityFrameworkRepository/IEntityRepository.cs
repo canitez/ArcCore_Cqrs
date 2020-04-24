@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Core.EntityFrameworkRepository
 {
-    public interface IEntitiyRepository<T> where T : class, IEntity, new()
+    public interface IEntityRepository<T> where T : class, IEntity, new()
     {
         Task Add(T entity);
         Task Update(T entity);

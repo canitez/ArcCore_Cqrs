@@ -7,7 +7,6 @@ namespace Entity.DbLayer.Command
 {
     public class SampleProductCommandModel : CommandBase<Unit>, IEntity
     {
-
         public int SampleProductId { get; set; }
 
         public string SampleProdcutName { get; set; }

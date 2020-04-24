@@ -8,7 +8,7 @@ namespace DataAccess.DbEntity.Orm.EntityFramework.CommandContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("");//sql server conf
+            optionsBuilder.UseNpgsql("");//sql server conf
         }
 
         DbSet<SampleProductCommandModel> SampleProducts { get; set; }
