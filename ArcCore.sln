@@ -17,7 +17,179 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity", "BackEnd\Entity\En
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "BackEnd\Domain\Domain.csproj", "{6A5D2342-8830-4031-9629-7817659330EB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{456F8DE5-AAAD-477B-A82A-A6BD090B2C03}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{0A7E5328-5BC5-43F7-844D-6E65598070BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "arccorefront", "arccorefront", "{1B2FD158-F4BD-47E8-9CBE-33C85D8CE319}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\.editorconfig = FrontEnd\arccorefront\.editorconfig
+		FrontEnd\arccorefront\.gitignore = FrontEnd\arccorefront\.gitignore
+		FrontEnd\arccorefront\angular.json = FrontEnd\arccorefront\angular.json
+		FrontEnd\arccorefront\browserslist = FrontEnd\arccorefront\browserslist
+		FrontEnd\arccorefront\devextreme.json = FrontEnd\arccorefront\devextreme.json
+		FrontEnd\arccorefront\karma.conf.js = FrontEnd\arccorefront\karma.conf.js
+		FrontEnd\arccorefront\package-lock.json = FrontEnd\arccorefront\package-lock.json
+		FrontEnd\arccorefront\package.json = FrontEnd\arccorefront\package.json
+		FrontEnd\arccorefront\README.md = FrontEnd\arccorefront\README.md
+		FrontEnd\arccorefront\tsconfig.app.json = FrontEnd\arccorefront\tsconfig.app.json
+		FrontEnd\arccorefront\tsconfig.json = FrontEnd\arccorefront\tsconfig.json
+		FrontEnd\arccorefront\tsconfig.spec.json = FrontEnd\arccorefront\tsconfig.spec.json
+		FrontEnd\arccorefront\tslint.json = FrontEnd\arccorefront\tslint.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "e2e", "e2e", "{DD40F4DB-774A-4B9A-9482-2B9BC3346AA2}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\e2e\protractor.conf.js = FrontEnd\arccorefront\e2e\protractor.conf.js
+		FrontEnd\arccorefront\e2e\tsconfig.json = FrontEnd\arccorefront\e2e\tsconfig.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{12E9A13B-2CE0-437D-B0D0-53B6E772182D}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\e2e\src\app.e2e-spec.ts = FrontEnd\arccorefront\e2e\src\app.e2e-spec.ts
+		FrontEnd\arccorefront\e2e\src\app.po.ts = FrontEnd\arccorefront\e2e\src\app.po.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{10534D70-6E22-46B3-9898-236F4657A29F}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\src\dx-styles.scss = FrontEnd\arccorefront\src\dx-styles.scss
+		FrontEnd\arccorefront\src\favicon.ico = FrontEnd\arccorefront\src\favicon.ico
+		FrontEnd\arccorefront\src\index.html = FrontEnd\arccorefront\src\index.html
+		FrontEnd\arccorefront\src\main.ts = FrontEnd\arccorefront\src\main.ts
+		FrontEnd\arccorefront\src\polyfills.ts = FrontEnd\arccorefront\src\polyfills.ts
+		FrontEnd\arccorefront\src\styles.scss = FrontEnd\arccorefront\src\styles.scss
+		FrontEnd\arccorefront\src\test.ts = FrontEnd\arccorefront\src\test.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{905EA74F-ED22-4EF2-AA84-4CDAE3153917}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\src\app\app-navigation.ts = FrontEnd\arccorefront\src\app\app-navigation.ts
+		FrontEnd\arccorefront\src\app\app-routing.module.ts = FrontEnd\arccorefront\src\app\app-routing.module.ts
+		FrontEnd\arccorefront\src\app\app.component.html = FrontEnd\arccorefront\src\app\app.component.html
+		FrontEnd\arccorefront\src\app\app.component.scss = FrontEnd\arccorefront\src\app\app.component.scss
+		FrontEnd\arccorefront\src\app\app.component.ts = FrontEnd\arccorefront\src\app\app.component.ts
+		FrontEnd\arccorefront\src\app\app.module.ts = FrontEnd\arccorefront\src\app\app.module.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "layouts", "layouts", "{5EE985E5-7F6E-4AC4-BB96-32471485966C}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\src\app\layouts\index.ts = FrontEnd\arccorefront\src\app\layouts\index.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "side-nav-inner-toolbar", "side-nav-inner-toolbar", "{3990003E-E395-480F-8E28-B72F7CCB15BA}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\src\app\layouts\side-nav-inner-toolbar\side-nav-inner-toolbar.component.html = FrontEnd\arccorefront\src\app\layouts\side-nav-inner-toolbar\side-nav-inner-toolbar.component.html
+		FrontEnd\arccorefront\src\app\layouts\side-nav-inner-toolbar\side-nav-inner-toolbar.component.scss = FrontEnd\arccorefront\src\app\layouts\side-nav-inner-toolbar\side-nav-inner-toolbar.component.scss
+		FrontEnd\arccorefront\src\app\layouts\side-nav-inner-toolbar\side-nav-inner-toolbar.component.ts = FrontEnd\arccorefront\src\app\layouts\side-nav-inner-toolbar\side-nav-inner-toolbar.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "side-nav-outer-toolbar", "side-nav-outer-toolbar", "{859B8898-E9C6-4061-B485-1F8420B7E5B6}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\src\app\layouts\side-nav-outer-toolbar\side-nav-outer-toolbar.component.html = FrontEnd\arccorefront\src\app\layouts\side-nav-outer-toolbar\side-nav-outer-toolbar.component.html
+		FrontEnd\arccorefront\src\app\layouts\side-nav-outer-toolbar\side-nav-outer-toolbar.component.scss = FrontEnd\arccorefront\src\app\layouts\side-nav-outer-toolbar\side-nav-outer-toolbar.component.scss
+		FrontEnd\arccorefront\src\app\layouts\side-nav-outer-toolbar\side-nav-outer-toolbar.component.ts = FrontEnd\arccorefront\src\app\layouts\side-nav-outer-toolbar\side-nav-outer-toolbar.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "single-card", "single-card", "{C4E2B63A-DBF6-458C-8557-93E2DC67058C}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\src\app\layouts\single-card\single-card.component.html = FrontEnd\arccorefront\src\app\layouts\single-card\single-card.component.html
+		FrontEnd\arccorefront\src\app\layouts\single-card\single-card.component.scss = FrontEnd\arccorefront\src\app\layouts\single-card\single-card.component.scss
+		FrontEnd\arccorefront\src\app\layouts\single-card\single-card.component.ts = FrontEnd\arccorefront\src\app\layouts\single-card\single-card.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pages", "pages", "{03ACA3B9-615C-43C2-AB44-DA35D443E4DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "display-data", "display-data", "{6688D081-DF58-433D-88E6-412386CD2132}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\src\app\pages\display-data\display-data.component.html = FrontEnd\arccorefront\src\app\pages\display-data\display-data.component.html
+		FrontEnd\arccorefront\src\app\pages\display-data\display-data.component.ts = FrontEnd\arccorefront\src\app\pages\display-data\display-data.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "home", "home", "{125FF4DF-4246-4C13-A1B3-AF30A7B5D2E8}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\src\app\pages\home\home.component.html = FrontEnd\arccorefront\src\app\pages\home\home.component.html
+		FrontEnd\arccorefront\src\app\pages\home\home.component.scss = FrontEnd\arccorefront\src\app\pages\home\home.component.scss
+		FrontEnd\arccorefront\src\app\pages\home\home.component.ts = FrontEnd\arccorefront\src\app\pages\home\home.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "profile", "profile", "{770165A0-203C-46A1-AD15-C0A2693389AD}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\src\app\pages\profile\profile.component.html = FrontEnd\arccorefront\src\app\pages\profile\profile.component.html
+		FrontEnd\arccorefront\src\app\pages\profile\profile.component.scss = FrontEnd\arccorefront\src\app\pages\profile\profile.component.scss
+		FrontEnd\arccorefront\src\app\pages\profile\profile.component.ts = FrontEnd\arccorefront\src\app\pages\profile\profile.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{ACB5250F-D2FC-47CE-A33B-390B9002D676}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{71879EE0-66E4-4F36-ACBB-E4D835412C79}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\src\app\shared\components\index.ts = FrontEnd\arccorefront\src\app\shared\components\index.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "footer", "footer", "{66D4DA4F-01BD-4FB0-B9A6-193F9FE174B0}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\src\app\shared\components\footer\footer.component.scss = FrontEnd\arccorefront\src\app\shared\components\footer\footer.component.scss
+		FrontEnd\arccorefront\src\app\shared\components\footer\footer.component.ts = FrontEnd\arccorefront\src\app\shared\components\footer\footer.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "header", "header", "{5F31CF3B-9BE9-46F4-A92C-67B039D786E9}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\src\app\shared\components\header\header.component.html = FrontEnd\arccorefront\src\app\shared\components\header\header.component.html
+		FrontEnd\arccorefront\src\app\shared\components\header\header.component.scss = FrontEnd\arccorefront\src\app\shared\components\header\header.component.scss
+		FrontEnd\arccorefront\src\app\shared\components\header\header.component.ts = FrontEnd\arccorefront\src\app\shared\components\header\header.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "login-form", "login-form", "{9FA2D53D-EB45-4EAA-AEF6-9F9430C524C0}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\src\app\shared\components\login-form\login-form.component.html = FrontEnd\arccorefront\src\app\shared\components\login-form\login-form.component.html
+		FrontEnd\arccorefront\src\app\shared\components\login-form\login-form.component.scss = FrontEnd\arccorefront\src\app\shared\components\login-form\login-form.component.scss
+		FrontEnd\arccorefront\src\app\shared\components\login-form\login-form.component.ts = FrontEnd\arccorefront\src\app\shared\components\login-form\login-form.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "side-navigation-menu", "side-navigation-menu", "{9A45D185-3E6F-4D25-B1D1-CDAE8C0FAC43}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\src\app\shared\components\side-navigation-menu\side-navigation-menu.component.html = FrontEnd\arccorefront\src\app\shared\components\side-navigation-menu\side-navigation-menu.component.html
+		FrontEnd\arccorefront\src\app\shared\components\side-navigation-menu\side-navigation-menu.component.scss = FrontEnd\arccorefront\src\app\shared\components\side-navigation-menu\side-navigation-menu.component.scss
+		FrontEnd\arccorefront\src\app\shared\components\side-navigation-menu\side-navigation-menu.component.ts = FrontEnd\arccorefront\src\app\shared\components\side-navigation-menu\side-navigation-menu.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "user-panel", "user-panel", "{7348B44D-6A60-4B34-8F81-A46DA1221521}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\src\app\shared\components\user-panel\user-panel.component.html = FrontEnd\arccorefront\src\app\shared\components\user-panel\user-panel.component.html
+		FrontEnd\arccorefront\src\app\shared\components\user-panel\user-panel.component.scss = FrontEnd\arccorefront\src\app\shared\components\user-panel\user-panel.component.scss
+		FrontEnd\arccorefront\src\app\shared\components\user-panel\user-panel.component.ts = FrontEnd\arccorefront\src\app\shared\components\user-panel\user-panel.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{74EC8E2F-61E4-4DEF-A146-44107F709D51}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\src\app\shared\services\app-info.service.ts = FrontEnd\arccorefront\src\app\shared\services\app-info.service.ts
+		FrontEnd\arccorefront\src\app\shared\services\auth.service.ts = FrontEnd\arccorefront\src\app\shared\services\auth.service.ts
+		FrontEnd\arccorefront\src\app\shared\services\index.ts = FrontEnd\arccorefront\src\app\shared\services\index.ts
+		FrontEnd\arccorefront\src\app\shared\services\screen.service.ts = FrontEnd\arccorefront\src\app\shared\services\screen.service.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{731C9D3A-810C-4A6D-B465-2864F42681E1}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\src\assets\.gitkeep = FrontEnd\arccorefront\src\assets\.gitkeep
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "environments", "environments", "{443DF406-59B9-4E38-A64A-B3B2485DF822}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\src\environments\environment.prod.ts = FrontEnd\arccorefront\src\environments\environment.prod.ts
+		FrontEnd\arccorefront\src\environments\environment.ts = FrontEnd\arccorefront\src\environments\environment.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "themes", "themes", "{F77114A4-1793-4BFE-AD1E-89DC162B7235}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\src\themes\metadata.additional.json = FrontEnd\arccorefront\src\themes\metadata.additional.json
+		FrontEnd\arccorefront\src\themes\metadata.base.json = FrontEnd\arccorefront\src\themes\metadata.base.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "generated", "generated", "{48218CDB-CB90-466B-B688-1B4BE2C7C31E}"
+	ProjectSection(SolutionItems) = preProject
+		FrontEnd\arccorefront\src\themes\generated\theme.additional.css = FrontEnd\arccorefront\src\themes\generated\theme.additional.css
+		FrontEnd\arccorefront\src\themes\generated\theme.base.css = FrontEnd\arccorefront\src\themes\generated\theme.base.css
+		FrontEnd\arccorefront\src\themes\generated\variables.additional.scss = FrontEnd\arccorefront\src\themes\generated\variables.additional.scss
+		FrontEnd\arccorefront\src\themes\generated\variables.base.scss = FrontEnd\arccorefront\src\themes\generated\variables.base.scss
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,6 +232,31 @@ Global
 		{494688C8-DF42-4DE2-B384-CFF5E8DFAFF1} = {D2EAB88D-929C-4487-A839-2E3F99057BBD}
 		{870E9900-4D24-4A40-B874-EE07FFFFAA47} = {D2EAB88D-929C-4487-A839-2E3F99057BBD}
 		{6A5D2342-8830-4031-9629-7817659330EB} = {D2EAB88D-929C-4487-A839-2E3F99057BBD}
+		{1B2FD158-F4BD-47E8-9CBE-33C85D8CE319} = {0A7E5328-5BC5-43F7-844D-6E65598070BF}
+		{DD40F4DB-774A-4B9A-9482-2B9BC3346AA2} = {1B2FD158-F4BD-47E8-9CBE-33C85D8CE319}
+		{12E9A13B-2CE0-437D-B0D0-53B6E772182D} = {DD40F4DB-774A-4B9A-9482-2B9BC3346AA2}
+		{10534D70-6E22-46B3-9898-236F4657A29F} = {1B2FD158-F4BD-47E8-9CBE-33C85D8CE319}
+		{905EA74F-ED22-4EF2-AA84-4CDAE3153917} = {10534D70-6E22-46B3-9898-236F4657A29F}
+		{5EE985E5-7F6E-4AC4-BB96-32471485966C} = {905EA74F-ED22-4EF2-AA84-4CDAE3153917}
+		{3990003E-E395-480F-8E28-B72F7CCB15BA} = {5EE985E5-7F6E-4AC4-BB96-32471485966C}
+		{859B8898-E9C6-4061-B485-1F8420B7E5B6} = {5EE985E5-7F6E-4AC4-BB96-32471485966C}
+		{C4E2B63A-DBF6-458C-8557-93E2DC67058C} = {5EE985E5-7F6E-4AC4-BB96-32471485966C}
+		{03ACA3B9-615C-43C2-AB44-DA35D443E4DB} = {905EA74F-ED22-4EF2-AA84-4CDAE3153917}
+		{6688D081-DF58-433D-88E6-412386CD2132} = {03ACA3B9-615C-43C2-AB44-DA35D443E4DB}
+		{125FF4DF-4246-4C13-A1B3-AF30A7B5D2E8} = {03ACA3B9-615C-43C2-AB44-DA35D443E4DB}
+		{770165A0-203C-46A1-AD15-C0A2693389AD} = {03ACA3B9-615C-43C2-AB44-DA35D443E4DB}
+		{ACB5250F-D2FC-47CE-A33B-390B9002D676} = {905EA74F-ED22-4EF2-AA84-4CDAE3153917}
+		{71879EE0-66E4-4F36-ACBB-E4D835412C79} = {ACB5250F-D2FC-47CE-A33B-390B9002D676}
+		{66D4DA4F-01BD-4FB0-B9A6-193F9FE174B0} = {71879EE0-66E4-4F36-ACBB-E4D835412C79}
+		{5F31CF3B-9BE9-46F4-A92C-67B039D786E9} = {71879EE0-66E4-4F36-ACBB-E4D835412C79}
+		{9FA2D53D-EB45-4EAA-AEF6-9F9430C524C0} = {71879EE0-66E4-4F36-ACBB-E4D835412C79}
+		{9A45D185-3E6F-4D25-B1D1-CDAE8C0FAC43} = {71879EE0-66E4-4F36-ACBB-E4D835412C79}
+		{7348B44D-6A60-4B34-8F81-A46DA1221521} = {71879EE0-66E4-4F36-ACBB-E4D835412C79}
+		{74EC8E2F-61E4-4DEF-A146-44107F709D51} = {ACB5250F-D2FC-47CE-A33B-390B9002D676}
+		{731C9D3A-810C-4A6D-B465-2864F42681E1} = {10534D70-6E22-46B3-9898-236F4657A29F}
+		{443DF406-59B9-4E38-A64A-B3B2485DF822} = {10534D70-6E22-46B3-9898-236F4657A29F}
+		{F77114A4-1793-4BFE-AD1E-89DC162B7235} = {10534D70-6E22-46B3-9898-236F4657A29F}
+		{48218CDB-CB90-466B-B688-1B4BE2C7C31E} = {F77114A4-1793-4BFE-AD1E-89DC162B7235}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF347162-E0AB-4A62-BF0A-248FB258AEE4}
