@@ -1,6 +1,6 @@
-npm install --save-dev @angular-devkit/build-angular
+ï»¿npm install --save-dev @angular-devkit/build-angular
 
---uygulama çalıştır
+--uygulama Ã§alÄ±ÅŸtÄ±r
 ng serve --open 
 
 npm install -g typescript
